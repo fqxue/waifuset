@@ -52,6 +52,61 @@ pip install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
+## 获取项目
+
+### 方式一：下载 Windows 整合包（推荐小白用户）
+
+**最简单的方式，无需安装任何额外软件：**
+
+1. 访问 [GitHub Releases](https://github.com/wochenlong/waifuset/releases)
+2. 下载 `waifuset-v0.01-windows.zip`
+3. 解压后直接使用（详见下方"快速开始"部分）
+
+### 方式二：从源码获取（适合开发者）
+
+#### 安装 Git
+
+**Windows 用户：**
+1. 访问 [Git 官网](https://git-scm.com/download/win)
+2. 下载 Git for Windows
+3. 运行安装程序，全部选择默认选项
+4. 验证安装：打开命令提示符，输入 `git --version`
+
+**Linux 用户：**
+```bash
+# Ubuntu/Debian
+sudo apt update
+sudo apt install git
+
+# CentOS/RHEL
+sudo yum install git
+
+# 验证安装
+git --version
+```
+
+**Mac 用户：**
+```bash
+# 使用 Homebrew
+brew install git
+
+# 验证安装
+git --version
+```
+
+#### 获取项目源码
+
+```bash
+# 克隆项目到本地
+git clone https://github.com/wochenlong/waifuset.git
+
+# 进入项目目录
+cd waifuset
+
+# 切换到最新版本
+git checkout main
+```
+
 ## 快速开始
 
 ### 方式一：使用 Windows 整合包（推荐小白用户）
