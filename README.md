@@ -52,6 +52,37 @@ pip install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
+## 快速开始
+
+### 方式一：使用 Windows 整合包（推荐小白用户）
+
+1. **下载整合包**
+   - 访问 [GitHub Releases](https://github.com/wochenlong/waifuset/releases)
+   - 下载 `waifuset-v0.01-windows.zip`
+
+2. **解压文件**
+   - 右键点击下载的 zip 文件
+   - 选择"解压到当前文件夹"或"解压到 waifuset-v0.01-windows"
+
+3. **配置数据集路径**
+   - 进入解压后的文件夹
+   - 右键点击 `run.bat` 文件，选择"编辑"
+   - 找到 `set DATASET_PATH=path/to/your/dataset`
+   - 将 `path/to/your/dataset` 改为您的实际数据集路径
+   - 保存文件（Ctrl+S）
+
+4. **启动应用**
+   - 双击 `run.bat` 文件
+   - 等待自动安装依赖（首次运行需要几分钟）
+   - 看到"正在启动 Waifuset..."后访问 http://127.0.0.1:7860
+
+**就这么简单！** 整合包会自动：
+- 创建 uv 虚拟环境
+- 安装所有依赖
+- 启动 Web 界面
+
+### 方式二：从源码启动
+
 ## 一键启动
 
 ### Windows 用户（推荐）
